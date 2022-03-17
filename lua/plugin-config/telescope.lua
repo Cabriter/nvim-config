@@ -10,6 +10,7 @@ telescope.setup({
     initial_mode = "insert",
     -- 窗口内快捷键
     mappings = require("keybindings").telescopeList,
+    file_ignore_patterns = { "%.meta" },
   },
   pickers = {
     -- 内置 pickers 配置
