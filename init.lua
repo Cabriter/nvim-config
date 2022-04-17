@@ -11,3 +11,10 @@ require("plugin-config.nvim-cmp")
 require("plugin-config.dashboard")
 require("plugin-config.project")
 require("plugin-config.nvim-treesitter")
+require("plugin-config.indent-blankline")
+
+-- 内置LSP (新增)
+require("lsp.setup")
+require("lsp.cmp")
+require("lsp.ui")
+
