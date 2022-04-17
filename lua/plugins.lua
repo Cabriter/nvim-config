@@ -29,8 +29,12 @@ packer.startup({
     use 'rafamadriz/friendly-snippets'
     -- lspkind
     use 'onsails/lspkind-nvim'
-
-
+    -- dashboard
+    use "glepnir/dashboard-nvim"
+    -- Project
+    use "ahmedkhalf/project.nvim"
+    -- treesitter
+    use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
   end,
   config = {
       display = {

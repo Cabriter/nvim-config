@@ -52,6 +52,9 @@ map("n", "<C-k>", "4k", opt)
 map("n", "<C-u>", "9k", opt)
 map("n", "<C-d>", "9j", opt)
 
+-- 格式化当前上下文
+map("n", "ff","gg=G<CR>",opt)
+
 -- 在visual 模式里粘贴不要复制
 map("v", "p", '"_dP', opt)
 
